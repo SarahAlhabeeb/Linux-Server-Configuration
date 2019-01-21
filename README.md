@@ -185,7 +185,7 @@ Then setup database:
 
 Restart Apache:
 
-```sudo service apache2 restart```
+* ```sudo service apache2 restart```
 
 #### References
 
@@ -196,3 +196,4 @@ This part lists the third-party resources that helped in solving this project:
   * [How To Install Git on Ubuntu 16.04 ](https://www.liquidweb.com/kb/install-git-ubuntu-16-04-lts/)
   * [Deploy a Flask Application on Ubuntu 14.04](https://devops.profitbricks.com/tutorials/deploy-a-flask-application-on-ubuntu-1404/)
   * [How To Secure PostgreSQL on an Ubuntu VPS](https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps)
+  * [rrjoson/udacity-linux-server-configuration](https://github.com/rrjoson/udacity-linux-server-configuration)
