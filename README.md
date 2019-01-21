@@ -156,15 +156,15 @@ application.secret_key = 'secret key'
 
 
 ##### 11. Install and configure PostgreSQL
-1. ```sudo apt-get install postgresql postgresql-contrib ```
+* ```sudo apt-get install postgresql postgresql-contrib ```
 
-2. ```sudo su - postgres```
+* ```sudo su - postgres```
 
-3. ``` psql```
-4. ``` CREATE USER catalog WITH PASSWORD 'password';```
-4. ``` ALTER USER catalog CREATEDB;```
-5. ``` CREATE DATABASE catalog WITH OWNER catalog;```
-6. ```\c catalog```
+* ``` psql```
+* ``` CREATE USER catalog WITH PASSWORD 'password';```
+* ``` ALTER USER catalog CREATEDB;```
+* ``` CREATE DATABASE catalog WITH OWNER catalog;```
+* ```\c catalog```
 
 * ```REVOKE ALL ON SCHEMA public FROM public;```
 
