@@ -173,18 +173,20 @@ application.secret_key = 'secret key'
 * ```\q```
 * ```exit```
 
-* Change create engine line in your \_\_init\_\_.py and database_setup.py to: 
+Change create engine line in your \_\_init\_\_.py and database_setup.py to: 
 
-```engine = create_engine('postgresql://catalog:password@localhost/catalog')```
+* ```engine = create_engine('postgresql://catalog:password@localhost/catalog')```
 
 Then setup database:
 
-```python /var/www/catalog/catalog/database_setup.py ```
-```python /var/www/catalog/catalog/items.py ```
+* ```python /var/www/catalog/catalog/database_setup.py ```
+
+* ```python /var/www/catalog/catalog/items.py ```
 
 Restart Apache:
 
 ```sudo service apache2 restart```
+
 #### References
 
 This part lists the third-party resources that helped in solving this project:
