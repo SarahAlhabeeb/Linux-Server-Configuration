@@ -2,10 +2,11 @@
 #### Full Stack Web Developer Nano-Degree
 
 ### Overview
-> This project gives a deep understanding of exactly what web applications are doing, how they are hosted, 
-  and how the interactions between multiple systems are done. The developer will learn how to access, secure, and
-  perform the initial configuration of a bare-bones Linux server. The developer will then learn how to install and
-  configure a web and database server and actually host a web application.
+> This project gives a deep understanding of exactly what web applications are doing,
+  how they are hosted, and how the interactions between multiple systems are done.
+  The developer will learn how to access, secure, and perform the initial 
+  configuration of a bare-bones Linux server. The developer will then learn how to
+  install and configure a web and database server and actually host a web application.
 
 ### Item Catalog App
   * IP address: 18.194.129.62
